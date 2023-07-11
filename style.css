@@ -65,6 +65,30 @@ button {
     border-radius: 6px;
 }
 
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 300px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 37px;
+    font-weight: light;
+    font-style: italic;
+}
+.inspiration p {
+    /* padding: 0; */
+    margin: 0;
+}
+.inspiration h4 {
+    font-size: 27px;
+    text-align: end;
+    padding: 0;
+    margin: 8px;
+}
+
 footer {
     background-color: #1f2937;
     color: #e5e7eb;
@@ -92,6 +116,10 @@ footer {
         max-width: 100%;
     }
     .hero-text-content {
+        text-align: center;
+    }
+
+    .inspiration h4 {
         text-align: center;
     }
 }
