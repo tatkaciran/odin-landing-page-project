@@ -17,3 +17,7 @@ Don't let doubts hold you back from exploring your true potential. Take the leap
 ## What is this project actually?
 
 This project is actually a Landing Page project designed by The Odin Project to reinforce HTML, CSS, and Flexbox skills.
+
+## Credits
+
+- Hero Photo by [Unsplash - Hipster chef](https://unsplash.com/photos/2Q8bo_6lu1Y)
