@@ -6,7 +6,11 @@ body {
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1360px;
+}
 
 header {
     display: flex;
