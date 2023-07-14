@@ -21,3 +21,14 @@ This project is actually a Landing Page project designed by The Odin Project to 
 ## Credits
 
 - Hero Photo by [Unsplash - Hipster chef](https://unsplash.com/photos/2Q8bo_6lu1Y)
+
+- info section images
+
+  - Prepare yourself to experience new things.
+ by [Alex Green](https://www.pexels.com/photo/ethnic-psychologist-touching-black-depressed-clients-shoulder-5699491/)
+
+  - Choose a job that you will enjoy working on by [Katya Wolf](https://www.pexels.com/photo/artistic-woman-doing-an-artwork-8716271/)
+
+  - Make an appointment for the day you want to work by [Ron Lach](https://www.pexels.com/photo/person-holding-a-calendar-and-clipboard-8441265/)
+
+  - And have fun when it's time to work! by [Gustavo Fring](https://www.pexels.com/photo/cheerful-craftswoman-painting-ceramic-cup-with-paintbrush-4241349/)
