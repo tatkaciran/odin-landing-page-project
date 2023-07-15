@@ -69,9 +69,7 @@ a {
         var(--c2);
     background-size: var(--s) var(--s);
 }
-.hero-container {
-    /* background-color: var(--dark-color); */
-}
+
 .hero {
     display: flex;
     align-items: center;
@@ -165,7 +163,6 @@ button {
 }
 
 .call-to-action {
-    background-color: var(--btn-color);
     color: var(--light-alt-color);
     padding: 44px 16px;
     margin: 95px 0;
