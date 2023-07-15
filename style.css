@@ -50,12 +50,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
+    gap: 42px;
     padding: 86px 24px;
 }
 
 .hero-title {
     font-size: 48px;
+
     font-weight: 800;
     color: #f9faf8;
 }
@@ -138,7 +139,6 @@ button {
 }
 
 .call-to-action {
-   
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 44px 16px;
@@ -147,8 +147,6 @@ button {
     border-radius: 10px;
     justify-content: space-evenly;
 }
-
-
 
 .cta-title {
     font-size: 26px;
@@ -179,18 +177,20 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-.container {
-    padding: 0;
-}
+    .container {
+        padding: 0;
+    }
 
     .hero {
         flex-direction: column;
     }
+ 
 
     .hero img {
         max-width: 100%;
     }
     .hero-text-content {
+        padding: 40px 30px;
         text-align: center;
     }
 
@@ -201,7 +201,8 @@ footer {
     .call-to-action {
         display: flex;
         flex-direction: column;
-        text-align: center;padding: 64px 16px;
+        text-align: center;
+        padding: 64px 16px;
         margin: 0;
         border-radius: 0;
         gap: 32px;
