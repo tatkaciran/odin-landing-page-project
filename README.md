@@ -32,3 +32,5 @@ This project is actually a Landing Page project designed by The Odin Project to 
   - Make an appointment for the day you want to work by [Ron Lach](https://www.pexels.com/photo/person-holding-a-calendar-and-clipboard-8441265/)
 
   - And have fun when it's time to work! by [Gustavo Fring](https://www.pexels.com/photo/cheerful-craftswoman-painting-ceramic-cup-with-paintbrush-4241349/)
+
+- Background pattern by [Temani Afif](https://css-pattern.com)

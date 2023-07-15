@@ -1,4 +1,10 @@
 body {
+    --dark-color: #07180c;
+    /* --dark-color: #1f2937; */
+    --light-color: #f9faf8;
+    --light-alt-color: #d9f6eb;
+    --btn-color: #1c9444;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,7 +28,7 @@ header.container {
 .brand {
     font-size: 24px;
     margin: 0;
-    color: #f9faf8;
+    color: var(--light-color);
 }
 
 nav ul {
@@ -41,10 +47,30 @@ h1 {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--light-alt-color);
+}
+
+.bg-pattern {
+    --s: 100px; /* control the size */
+    --c1: #043817;
+    --c2: #195012;
+    --c3: #0d430e;
+
+    --_g: 50%, #0000 37%, var(--c1) 39% 70%, #0000 72%;
+    --_t: 50%, var(--c2) 40deg, var(--c3) 0 140deg, var(--c2) 0 180deg, #0000 0;
+    --_s: 47% 50% at;
+    background: radial-gradient(var(--_s) -10% var(--_g)) 0 calc(var(--s) / 2),
+        radial-gradient(var(--_s) -10% var(--_g)) calc(var(--s) / 2) 0,
+        radial-gradient(var(--_s) 110% var(--_g)),
+        radial-gradient(var(--_s) 110% var(--_g)) calc(var(--s) / 2)
+            calc(var(--s) / 2),
+        conic-gradient(from 0deg at 55% var(--_t)) calc(var(--s) / 4) 0,
+        conic-gradient(from 180deg at 45% var(--_t)) calc(var(--s) / 4) 0,
+        var(--c2);
+    background-size: var(--s) var(--s);
 }
 .hero-container {
-    background-color: #1f2937;
+    /* background-color: var(--dark-color); */
 }
 .hero {
     display: flex;
@@ -58,12 +84,12 @@ a {
     font-size: 48px;
 
     font-weight: 800;
-    color: #f9faf8;
+    color: var(--light-color);
 }
 
 .hero-description {
     font-size: 18px;
-    color: #e5e7eb;
+    color: var(--light-alt-color);
 }
 
 .hero img {
@@ -75,8 +101,8 @@ button {
     border: none;
     font-size: 18px;
     font-weight: 600;
-    background-color: #3882f6;
-    color: #e5e7eb;
+    background-color: var(--btn-color);
+    color: var(--light-alt-color);
     padding: 9px 27px;
     border-radius: 6px;
 }
@@ -90,7 +116,7 @@ button {
     padding: 40px 16px;
     font-size: 36px;
     font-weight: 700;
-    color: #1f2937;
+    color: var(--dark-color);
 }
 .info-steps {
     display: flex;
@@ -122,8 +148,8 @@ button {
     text-align: center;
     align-items: center;
     padding: 100px 0;
-    background-color: #e5e7eb;
-    color: #1f2937;
+    background-color: var(--light-alt-color);
+    color: var(--dark-color);
     font-size: 37px;
     font-weight: light;
     font-style: italic;
@@ -139,8 +165,8 @@ button {
 }
 
 .call-to-action {
-    background-color: #3882f6;
-    color: #e5e7eb;
+    background-color: var(--btn-color);
+    color: var(--light-alt-color);
     padding: 44px 16px;
     margin: 95px 0;
     display: flex;
@@ -154,12 +180,12 @@ button {
 }
 
 .call-to-action button {
-    border: 2px solid white;
+    border: 2px solid var(--light-color);
 }
 
 footer {
-    background-color: #1f2937;
-    color: #e5e7eb;
+    background-color: var(--dark-color);
+    color: var(--light-alt-color);
     padding: 35px 10px;
     display: flex;
     align-items: center;
@@ -184,7 +210,6 @@ footer {
     .hero {
         flex-direction: column;
     }
- 
 
     .hero img {
         max-width: 100%;
